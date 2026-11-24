@@ -7,7 +7,9 @@ authors = [
     { email = "joaovictorsanchesandradeestuda@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pydantic>=2.14.4",
+]
 
 [project.scripts]
 truco-engine = "truco_engine:main"
