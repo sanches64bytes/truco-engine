@@ -1,5 +1,5 @@
-from .cards import random_card, DECK, CardDict
+from .context import Context
 
 
 def main():
-    ...
+    ctx = Context()

@@ -1,2 +1,5 @@
-def deal_cards():
+from .context import Context
+
+
+def deal_cards(ctx: Context):
     ...
